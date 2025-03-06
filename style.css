@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: white;
+    color: #1F5673;
+}
+
+.titulo-destaque {
+    color: #EF8354;
+}
+
+.texto-destaque {
+    color: #759FBC;
+}
+
+.apresentacao {
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Krona One',sans-serif;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 24px;
+    font-family: 'Montserrat';
+}
+
+.apresentacao__conteudo__links {
+    display: flex; /* Alinha conteudo */
+    justify-content: space-between; /* Insere espaçõ entre elementos */
+}
+
+.apresentacao__conteudo__links__links {
+    background-color: #90C3C8; /* Muda a cor de fundo */
+    width: 280px;
+    text-align: center;
+    border-radius: 16px; /* Arredonda a Caixa */
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none; /* Retira o sublinhado */
+    color: #000000;
+    font-family: 'Montserrat',sans-serif;
+}
+
