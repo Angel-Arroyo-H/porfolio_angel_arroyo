@@ -28,6 +28,7 @@ body {
     font-size: 24px;
     font-weight: 600;
     color: #1F5673;
+    text-decoration-line:none;
 }
 
 .titulo-destaque {
